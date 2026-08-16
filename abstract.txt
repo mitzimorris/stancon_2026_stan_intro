@@ -1,0 +1,16 @@
+This full-day tutorial introduces the Stan probabilistic programming language together with the BRMS R package, framed by a principled Bayesian workflow.
+A Bayesian workflow consists of:
+
+- Exploratory data analysis to aid model specification
+- Prior predictive distribution checking (using simulated data)
+- Checking model fits
+- Posterior predictive checks
+- Model comparison
+
+The BRMS package provides a high-level syntax for specifying a wide range of hierarchical and other multi-level regression models in Stan.
+With BRMS, we can focus on the task of model criticism and comparison, instead of the task of Stan programming.
+
+However, 
+
+
+Using a running example on global air pollution, participants progress from simple regression to multilevel models, working with Stan's block structure and type system, fitting models via CmdStanPy and CmdStanR, running prior and posterior predictive checks, assessing sampler diagnostics, and comparing models with PSIS-LOO. By day's end, participants will be able to run Stan and BRMS on their own data in their own compute environments, engage with the models and techniques presented elsewhere at StanCon or encountered in their own work, and apply workflow principles to evaluate the results.
